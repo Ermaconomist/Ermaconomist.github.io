@@ -118,28 +118,28 @@ plugins:
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
-scholar:
-
-  last_name: Wyss
-
-  style: apa
-  locale: de
-
-  sort_by: year
-  order: descending
-
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-
-  replace_strings: true
-  join_strings: true
-
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-
-  query: "@*"
+#scholar:
+#
+#  last_name: Wyss
+#
+#  style: apa
+#  locale: de
+#
+#  sort_by: year
+#  order: descending
+#
+#  source: /_bibliography/
+#  bibliography: papers.bib
+#  bibliography_template: bib
+#
+#  replace_strings: true
+#  join_strings: true
+#
+#  details_dir: bibliography
+#  details_layout: bibtex.html
+#  details_link: Details
+#
+#  query: "@*"
 
 # -----------------------------------------------------------------------------
 # Optional Features
@@ -150,7 +150,7 @@ enable_katex:             true
 enable_mansory:           true
 enable_progressbar:       true
 enable_tooltips:          false
-show_social_icons:        false
+show_social_icons:        true
 
 # -----------------------------------------------------------------------------
 # Library versions
