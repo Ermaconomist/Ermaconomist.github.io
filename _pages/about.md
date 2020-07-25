@@ -8,9 +8,9 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Stampfenbachstrasse 67</p>
-    <p>8006 Zürich</p>
-    <p>Switzerland</p>
+    <p>phở bò loving</p>
+    <p>photography enthusiast</p>
+    <p>aspiring data scientist</p>
 
 news: true
 social: true
