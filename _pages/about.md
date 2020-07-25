@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Nico Wyss
 
 profile:
   align: right
@@ -15,6 +15,8 @@ profile:
 news: true
 social: true
 ---
+
+#<a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
