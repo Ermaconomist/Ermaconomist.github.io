@@ -2,12 +2,13 @@
 layout: about
 title: about
 permalink: /
-description: Nico Wyss
+description: Adress, Contact and some information about me.
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
+    <p> </p>
     <p>phở bò loving</p>
     <p>photography enthusiast</p>
     <p>aspiring data scientist</p>
