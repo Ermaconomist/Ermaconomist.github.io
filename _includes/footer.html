@@ -1,15 +1,21 @@
-<footer class="footer-main">
-    {{ site.name }} © {{ site.time | date: '%Y' }}
-
-    <a class="link" href="{{ site.url }}/feed.xml" target="_blank">
-        <svg class="icon icon-rss">
-            <use xlink:href="#icon-rss"></use>
-        </svg>
-    </a>
-
-    <p class="extra">
-        <a class="link" href="https://github.com/sergiokopplin/indigo">Indigo theme</a>
-        by
-        <a class="link" href="https://github.com/sergiokopplin/indigo">Kopplin</a>
-    </p>
+{% if site.footer_fixed %}
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.title }}.
+    {{ site.footer_text }}
+    {% if site.last_updated %}
+    Last updated: {{ "now" | date: '%B %d, %Y' }}.
+    {% endif %}
+  </div>
 </footer>
+{% else %}
+<footer class="sticky-bottom mt-5">
+  <div class="container">
+    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.title }}.
+    {{ site.footer_text }}
+    {% if site.last_updated %}
+    Last updated: {{ "now" | date: '%B %d, %Y' }}.
+    {% endif %}
+  </div>
+</footer>
+{% endif %}
