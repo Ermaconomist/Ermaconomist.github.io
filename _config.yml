@@ -9,7 +9,7 @@
 title: My Website
 
 # Your name to show in the footer
-author: Some Person
+author: Nico Wyss
 
 # --- List of links in the navigation bar --- #
 
@@ -18,6 +18,7 @@ navbar-links:
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
+    - Nico Website: "https://www.nicowyss.ch/"
   Author's home: "https://deanattali.com"
 
 # --- Logo --- #
