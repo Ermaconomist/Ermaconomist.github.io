@@ -1,21 +1,27 @@
-{% if site.footer_fixed %}
-<footer class="fixed-bottom">
-  <div class="container mt-0">
-    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
-    {{ site.footer_text }}
-    {% if site.last_updated %}
-    Last updated: {{ "now" | date: '%B %d, %Y' }}.
-    {% endif %}
-  </div>
+<footer>
+    <ul class="icons">
+		<li><a href="{{ site.twitter_url }}" class="fa-twitter" target="_blank">Twitter</a></li>
+		<li><a href="{{ site.gitlab_url }}" class="fa-gitlab" target="_blank">Instagram</a></li>
+		<li><a href="{{ site.linkedin_url }}" class="fa-linkedin" target="_blank">LinkedIn</a></li>
+	</ul>
 </footer>
-{% else %}
-<footer class="sticky-bottom mt-5">
-  <div class="container">
-    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
-    {{ site.footer_text }}
-    {% if site.last_updated %}
-    Last updated: {{ "now" | date: '%B %d, %Y' }}.
-    {% endif %}
-  </div>
+
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+	<ul class="copyright">
+		<li>&copy; {{ site.title }}</li><li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li><li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
+	</ul>
 </footer>
-{% endif %}
+
+</div>
+
+<!-- Scripts -->
+<!--[if lte IE 8]><script src="{{ site.url }}{{ site.baseurl }}/assets/js/respond.min.js"></script><![endif]-->
+<script>
+	if ('addEventListener' in window) {
+		window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+		document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+	}
+</script>
